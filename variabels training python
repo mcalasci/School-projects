@@ -1,0 +1,27 @@
+student = " I am a student"
+
+print(type(student))
+
+print(student.index("a"))
+
+print(student.count("a"))
+
+print(student.find("stu"))
+
+print(student.find("Stu"))
+
+print(student.lower())
+
+print(student.upper())
+
+print(student.startswith(" "))
+
+print(student.startswith("i"))
+
+print(student.endswith("t"))
+
+print(student.strip())
+
+print(student.strip("t"))
+
+print(len(student))
